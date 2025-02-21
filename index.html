@@ -95,5 +95,26 @@
             <td>100</td>
         </tr>
     </table>
+    <h2>Formulir</h2>
+    <form action="Proses.php" method="post">
+        Nama<br>
+        <input type="text" name="nama" id="nama" required>
+        <br>
+        Email <br>
+        <input type="email" name="email" id="email" required>
+        <br>
+        Jenis Kelamin <br>
+        <input type="radio" name="jk" id="jk" value="L" checked> Laki-laki <br>
+        <input type="radio" name="jk" id="jk" value="P"> Perempuan <br> 
+        Tempat lahir <br>
+        <select name="Tempat_lahir" id="Tempat_lahir">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+            <option value="PPA">Papua</option>
+        </select> <br>
+        Tanggal Lahir <br>
+        <input type="date" name="Tanggal_lahir" id="Tanggal_lahir"> <br>
+        <button type="submit"></button>
+    </form>
 </body>
 </html>
