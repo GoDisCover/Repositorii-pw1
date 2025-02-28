@@ -40,3 +40,13 @@ body {
         border-collapse: collapse;
         text-align: center;
       }
+      input{
+        width: 100%; 
+      }
+      select{
+        width: 100%;
+      }
+      /* or */
+      .form-control{
+        width: 100%;
+      }
