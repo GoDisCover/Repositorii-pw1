@@ -4,15 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar HTML</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Element Selector */
+      body {
+        background-color: #F5F5F5;
+        font-family: 'calibri';
+      } 
+      /* Class Selector */
+      .text-danger {
+        color : red;
+      }
+      .bg-success {
+        background-color: green;
+      }
+      .bg-primary{
+        background-color: blue;
+      }
+      .warning{
+        color : yellow
+      }
+      /*  */
+    </style>
 </head>
 <body>
-    <h1>Selamat Datang</h1>
+    <h1 style="color: blue;">Selamat Datang</h1>
     <hr>
     <a href="index.html">Home</a> | <a href="profil.html">Profil</a> | <a href="hubungi.html">Hubungi</a>
     <hr>
     
-    <p>Hari Ini Belajar Github, HTML, Dan Deploy ke Vercel</p>
-    <p>Belajar Web Menyenangkan</p>
+    <p class="text-danger bg-success">Hari Ini Belajar Github, HTML, Dan Deploy ke Vercel</p>
+    <p class="warning bg-primary">Belajar Web Menyenangkan</p>
 
     <!-- Ini Komentar, tidak ditampilkan di browser 9/11 -->
     <!-- Heading h1-h6 -->
