@@ -1,0 +1,18 @@
+body {
+        background-color: #F5F5F5;
+        font-family: 'calibri';
+      } 
+      /* Class Selector */
+      .text-danger {
+        color : red;
+      }
+      .bg-success {
+        background-color: green;
+      }
+      .bg-primary{
+        background-color: blue;
+      }
+      .text-warning{
+        color : yellow
+      }
+      /*  */
