@@ -1,7 +1,13 @@
 /* Style Hp */
-
+body {
+    background-color: black;
+}
 /* Style Tablet */
-
+@media screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
 /* Style Desktop */
 @media screen and (min-width: 992px){
     body {
