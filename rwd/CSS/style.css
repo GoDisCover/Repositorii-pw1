@@ -2,10 +2,16 @@
 body {
     background-color: black;
 }
+.col-
 /* Style Tablet */
 @media screen and (min-width: 600px) {
     body {
         background-color: red;
+    }
+    .col-md-6{
+        width: 50%;
+        background-color: wheat;
+        float: left;
     }
 }
 /* Style Desktop */
