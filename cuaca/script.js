@@ -18,7 +18,7 @@ function detail(kode){
         data.data[0].cuaca.forEach((item =>{
             console.log(item);
             item.forEach((cuaca) => {
-                document.getElementById('list-cuaca').innerHTML += `<li>${cuaca.weather_desc}</li>`
+                document.getElementById('list-cuaca').innerHTML += `<li><img src="${cuaca.image}" alt="">${cuaca.local_datetime} - ${cuaca.weather_desc}</li>`
             })
             
         }))
