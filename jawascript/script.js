@@ -4,6 +4,10 @@ let nama = "Sanjaya";
 let umur = 17;
 document.getElementById('nama').innerHTML = "Nama Saya : " + nama;
 document.getElementById('umur').innerHTML = `Umur Saya : ${umur} tahun`;
+var namavar;
+namavar = `jessen`;
+document.getElementById('a').innerHTML = `Nama : ${a}`;
+console.log(a);
 
 let mahasiswa =["Cristian","Kolin","Xavero"];
 console.log(mahasiswa);
